@@ -1,7 +1,7 @@
 {
-  "name": "SLC",
+  "name": "inBloom",
   "version": "0.0.1",
-  "description": "SLC JavaScript SDK",
+  "description": "inBloom JavaScript SDK",
   "main": "SLC.js",
   "dependencies": {
     "util": "~0.4.9",
