@@ -1,4 +1,4 @@
 javascript-sdk
 ==============
 
-SLC JavaScript SDK
+inBloom JavaScript SDK
