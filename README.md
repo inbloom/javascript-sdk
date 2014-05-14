@@ -1,7 +1,7 @@
 #inBloom JavaScript SDK
 
 ##DESCRIPTION
-Node.js client code for the inBloom API.
+Node.js client code for the API.
 
 ##SYSTEM REQUIREMENTS
 Node.js
