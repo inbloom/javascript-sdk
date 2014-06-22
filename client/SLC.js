@@ -210,8 +210,9 @@
 
 				if (method === "post" || method === "put") {
 					if (data) {
-						headers["Content-Length"] = data.toString().length; // Setting up content length in the request header
-						body = JSON.stringify(data); // Setting up the body for POST and PUT method
+						var stringData = JSON.stringify(data); // 400 error occurs if not stringified before length calculated
+						headers["Content-Length"] = stringData.length; // Setting up content length in the request header
+						body = stringData; // Setting up the body for POST and PUT method
 					}
 				} else {
 
